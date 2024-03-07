@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "kevstierifymodifiers",
+	"version": "1.0.2",
+	"name": "Kev's Tierify Modifiers",
+	"description": "Tons of new modifiers for you to discover!",
+	"authors": [
+		"KevzCz",
+		"Pixel Dream Studios"
+	],
+	"contributors": [
+		"Kyber_6"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/kevs-tierify-modifiers",
+		"sources": "https://github.com/KevzCz/KevsTierifyModifiers",
+		"issues": "https://github.com/KevzCz/KevsTierifyModifiers/issues"
+	},
+	"license": "GNU GPLv3",
+	"icon": "assets/kevstierifymodifiers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kevstierifymodifiers.KevsTierifyModifiers"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"wizards": "*",
+		"reabsorption": "*",
+		"puffish_skills": "*",
+		"tiered": "*",
+		"archers": "*",
+		"obscure_api": "*",
+		"paladins": "*",
+		"mythicmetals": "*"
+	},
+	"suggests": {
+		"simplyskills": "*",
+		"spellbladenext": "*"
+	}
+}
