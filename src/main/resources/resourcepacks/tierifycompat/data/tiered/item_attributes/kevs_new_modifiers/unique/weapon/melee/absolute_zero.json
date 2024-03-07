@@ -1,0 +1,47 @@
+{
+  "id": "tiered:mythic_absolute_zero",
+  "verifiers": [
+        {
+            "tag": "c:swords"
+        }
+  ],
+  "weight": 3,
+  "style": {
+        "color": "red"
+  },
+  "attributes": [
+        {
+            "type": "spell_power:frost",
+            "modifier": {
+                "name": "tiered:mythic_tool_4",
+                "operation": "ADDITION",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:mythic_melee_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:mythic_tool_4",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.05	
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}
