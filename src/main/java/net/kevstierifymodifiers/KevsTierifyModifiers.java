@@ -19,5 +19,8 @@ public class KevsTierifyModifiers implements ModInitializer {
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
                 new ResourceLocation(MOD_ID, "tierifycompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
         )));
+        FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+                new ResourceLocation(MOD_ID, "FantasyMc"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+        )));
     }
 }
