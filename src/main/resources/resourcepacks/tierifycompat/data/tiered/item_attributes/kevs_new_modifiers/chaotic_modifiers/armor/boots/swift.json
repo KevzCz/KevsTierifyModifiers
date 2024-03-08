@@ -57,7 +57,7 @@
             "modifier": {
                 "name": "tiered:swift_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.35
+                "amount": -0.45
             },
             "optional_equipment_slots": [
                 "FEET",
