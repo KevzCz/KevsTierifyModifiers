@@ -17,7 +17,32 @@ public class KevsTierifyModifiers implements ModInitializer {
         LOGGER.info("Hello from " + MOD_ID + "!");
         LOGGER.info("Loading tiered data pack for " + MOD_ID);
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
-                new ResourceLocation(MOD_ID, "tierifycompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+                new ResourceLocation(MOD_ID, "tcompat"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
         )));
+        if (FabricLoader.getInstance().isModLoaded("archers")){
+            FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+                    new ResourceLocation(MOD_ID, "tarchers"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+            )));
+        }
+        if (FabricLoader.getInstance().isModLoaded("mythicmetals")){
+            FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+                    new ResourceLocation(MOD_ID, "tmythicmetals"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+            )));
+        }
+        if (FabricLoader.getInstance().isModLoaded("paladins")){
+            FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+                    new ResourceLocation(MOD_ID, "tpapr"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+            )));
+        }
+        if (FabricLoader.getInstance().isModLoaded("reabsorption")){
+            FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+                    new ResourceLocation(MOD_ID, "treabsorp"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+            )));
+        }
+        if (FabricLoader.getInstance().isModLoaded("wizards")){
+            FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
+                    new ResourceLocation(MOD_ID, "twizards"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+            )));
+        }
     }
 }
