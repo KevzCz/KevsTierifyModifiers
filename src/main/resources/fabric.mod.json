@@ -29,18 +29,18 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"wizards": "*",
-		"reabsorption": "*",
 		"puffish_skills": "*",
 		"tiered": "*",
-		"archers": "*",
 		"obscure_api": "*",
-		"paladins": "*",
-		"mythicmetals": "*"
+		"kevslibrary": "*",
+		"spell_power": "*"
 	},
 	"suggests": {
-		"simplyskills": "*",
-		"spellbladenext": "*"
+		"mythicmetals": "*",
+		"paladins": "*",
+		"archers": "*",
+		"reabsorption": "*",
+		"wizards": "*"
 	},
 	"breaks": {
 		"kevstieredzmodifiers": "*"
