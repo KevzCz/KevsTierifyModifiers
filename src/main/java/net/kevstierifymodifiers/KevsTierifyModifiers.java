@@ -36,7 +36,7 @@ public class KevsTierifyModifiers implements ModInitializer {
         }
         if (FabricLoader.getInstance().isModLoaded("reabsorption")){
             FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent((modContainer -> ResourceManagerHelper.registerBuiltinResourcePack(
-                    new ResourceLocation(MOD_ID, "treabsorp"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
+                    new ResourceLocation(MOD_ID, "tespellatt"), modContainer, ResourcePackActivationType.ALWAYS_ENABLED
             )));
         }
         if (FabricLoader.getInstance().isModLoaded("wizards")){

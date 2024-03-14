@@ -1,21 +1,30 @@
 {
-    "id": "tiered:swift_1",
+    "id": "tiered:unique_armor_5",
     "verifiers": [
+        {
+            "tag": "c:helmets"
+        },
+        {
+            "tag": "c:chestplates"
+        },
+        {
+            "tag": "c:leggings"
+        },
         {
             "tag": "c:boots"
         }
     ],
-    "weight": 1,
+    "weight": 5,
     "style": {
-        "color": "dark_red"
+        "color": "light_purple"
     },
     "attributes": [
         {
-            "type": "generic.movement_speed",
+            "type": "puffish_skills:player.melee_damage",
             "modifier": {
-                "name": "tiered:swift_1",
+                "name": "tiered:unique_armor_5",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 1
+                "amount": 0.04
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -25,11 +34,11 @@
             ]
         },
         {
-            "type": "generic.attack_speed",
+            "type": "obscure_api:critical_hit",
             "modifier": {
-                "name": "tiered:swift_1",
+                "name": "tiered:unique_armor_5",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.5
+                "amount": 0.04
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -38,26 +47,12 @@
                 "HEAD"
             ]
         },
-		{
-            "type": "obscure_api:dodge",
+        {
+            "type": "generic.max_health",
             "modifier": {
-                "name": "tiered:swift_1",
+                "name": "tiered:unique_armor_5",
                 "operation": "ADDITION",
-                "amount": 0.3
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-		{
-            "type": "puffish_skills:player.melee_damage",
-            "modifier": {
-                "name": "tiered:swift_1",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.35
+                "amount": 3
             },
             "optional_equipment_slots": [
                 "FEET",

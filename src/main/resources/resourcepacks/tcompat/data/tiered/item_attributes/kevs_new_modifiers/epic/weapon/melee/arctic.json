@@ -1,5 +1,5 @@
 {
-  "id": "tiered:epic_artic",
+  "id": "tiered:artic",
   "verifiers": [
         {
             "tag": "c:swords"
@@ -13,7 +13,7 @@
         {
             "type": "spell_power:frost",
             "modifier": {
-                "name": "tiered:legendary_tool_4",
+                "name": "tiered:unique_tool_4",
                 "operation": "ADDITION",
                 "amount": 1
             },
@@ -24,9 +24,9 @@
         {
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:legendary_tool_4",
+                "name": "tiered:unique_tool_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.015
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "MAINHAND"

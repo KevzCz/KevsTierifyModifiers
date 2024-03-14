@@ -1,0 +1,69 @@
+{
+  "id": "tiered:mythic_staves_3",
+  "verifiers": [
+        {
+          "tag": "wizards:wands"
+        }
+  ],
+  "weight": 1,
+  "style": {
+        "color": "dark_red"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:fire",
+      "modifier": {
+        "name": "tiered:mythic_staves_1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.35
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:frost",
+      "modifier": {
+        "name": "tiered:mythic_staves_1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.35
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:critical_damage",
+      "modifier": {
+        "name": "tiered:mythic_staves_1",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.3
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:critical_chance",
+      "modifier": {
+        "name": "tiered:mythic_staves_2",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "name": "tiered:mythic_staves_3",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+    ]
+}

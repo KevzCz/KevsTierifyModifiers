@@ -1,5 +1,5 @@
 {
-  "id": "tiered:legendary_polar",
+  "id": "tiered:polar",
   "verifiers": [
         {
             "tag": "c:swords"
@@ -13,7 +13,7 @@
         {
             "type": "spell_power:frost",
             "modifier": {
-                "name": "tiered:mythic_tool_4",
+                "name": "tiered:unique_tool_4",
                 "operation": "ADDITION",
                 "amount": 1.5
             },
@@ -35,7 +35,7 @@
         {
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:mythic_tool_4",
+                "name": "tiered:unique_tool_4",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.025
             },

@@ -26,7 +26,7 @@
             "modifier": {
                 "name": "tiered:mythic_staves_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.4
             },
             "optional_equipment_slots": [
                 "MAINHAND"
