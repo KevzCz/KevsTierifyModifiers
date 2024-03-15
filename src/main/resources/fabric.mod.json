@@ -32,7 +32,7 @@
 		"puffish_skills": "*",
 		"tiered": "*",
 		"obscure_api": "*",
-		"kevslibrary": ">=1.0.1",
+		"kevslibrary": "1.1.0",
 		"spell_power": "*"
 	},
 	"suggests": {
