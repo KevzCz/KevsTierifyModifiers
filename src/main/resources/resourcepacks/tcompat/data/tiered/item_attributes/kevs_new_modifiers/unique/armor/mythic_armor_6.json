@@ -1,5 +1,5 @@
 {
-    "id": "tiered:unique_armor_5",
+    "id": "tiered:mythic_armor_6",
     "verifiers": [
         {
             "tag": "c:helmets"
@@ -16,27 +16,13 @@
     ],
     "weight": 5,
     "style": {
-        "color": "light_purple"
+        "color": "red"
     },
     "attributes": [
         {
-            "type": "puffish_skills:player.melee_damage",
-            "modifier": {
-                "name": "tiered:unique_armor_5",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": 0.04
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
             "type": "obscure_api:critical_hit",
             "modifier": {
-                "name": "tiered:unique_armor_5",
+                "name": "tiered:mythic_armor_6",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.04
             },
@@ -48,11 +34,25 @@
             ]
         },
         {
-            "type": "generic.max_health",
+            "type": "puffish_skills:player.melee_damage",
             "modifier": {
-                "name": "tiered:unique_armor_5",
-                "operation": "ADDITION",
-                "amount": 3
+                "name": "tiered:mythic_armor_6",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:mythic_armor_6",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "FEET",
