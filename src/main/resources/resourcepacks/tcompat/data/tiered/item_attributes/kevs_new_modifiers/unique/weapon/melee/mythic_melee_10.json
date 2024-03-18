@@ -1,5 +1,5 @@
 {
-    "id": "tiered:unique_melee_7",
+    "id": "tiered:mythic_melee_10",
     "verifiers": [
         {
             "tag": "c:swords"
@@ -10,15 +10,15 @@
     ],
     "weight": 5,
     "style": {
-        "color": "light_purple"
+        "color": "red"
     },
     "attributes": [
         {
-            "type": "obscure_api:penetration",
+            "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:unique_melee_7",
+                "name": "tiered:mythic_melee_10",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.25
+                "amount": 0.3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -27,7 +27,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:unique_melee_7",
+                "name": "tiered:mythic_melee_10",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.5
             },
@@ -36,14 +36,15 @@
             ]
         },
         {
-            "type": "obscure_api:critical_damage",
+            "type": "obscure_api:parry",
             "modifier": {
-                "name": "tiered:unique_melee_7",
+                "name": "tiered:mythic_melee_10",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.3
             },
             "optional_equipment_slots": [
-                "MAINHAND"
+                "MAINHAND",
+				"OFFHAND"
             ]
         }
     ]

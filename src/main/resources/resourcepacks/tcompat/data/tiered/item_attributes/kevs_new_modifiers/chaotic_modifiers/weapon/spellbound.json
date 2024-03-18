@@ -1,5 +1,5 @@
 {
-  "id": "tiered:spellbound",
+  "id": "tiered:mythic_spellbound",
   "verifiers": [
         {
             "tag": "c:swords"
@@ -7,15 +7,15 @@
   ],
   "weight": 1,
   "style": {
-        "color": "dark_red"
+        "color": "red"
   },
   "attributes": [
         {
             "type": "spell_power:frost",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:mythic_tool_4",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -24,9 +24,9 @@
 		{
             "type": "spell_power:fire",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:mythic_tool_4",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,40 +35,18 @@
 		{
             "type": "spell_power:arcane",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:mythic_tool_4",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
         },
         {
-          "type": "spell_power:soul",
-          "modifier": {
-            "name": "tiered:unique_tool_4",
-            "operation": "ADDITION",
-            "amount": 2
-          },
-          "optional_equipment_slots": [
-            "MAINHAND"
-          ]
-        },
-        {
-          "type": "spell_power:lightning",
-          "modifier": {
-            "name": "tiered:unique_tool_4",
-            "operation": "ADDITION",
-            "amount": 2
-          },
-          "optional_equipment_slots": [
-            "MAINHAND"
-          ]
-        },
-        {
             "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:unique_melee_1",
+                "name": "tiered:mythic_melee_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.65
             },
@@ -79,7 +57,7 @@
 		{
             "type": "generic.attack_speed",
             "modifier": {
-                "name": "tiered:unique_melee_1",
+                "name": "tiered:mythic_melee_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": -0.65
             },

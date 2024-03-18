@@ -1,5 +1,5 @@
 {
-  "id": "tiered:all_rounder",
+  "id": "tiered:mythic_all_rounder",
   "verifiers": [
         {
             "tag": "c:swords"
@@ -7,13 +7,13 @@
   ],
   "weight": 1,
   "style": {
-        "color": "dark_red"
+        "color": "red"
   },
   "attributes": [
         {
             "type": "spell_power:frost",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:mythic_tool_4",
                 "operation": "ADDITION",
                 "amount": 1.5
             },
@@ -24,7 +24,7 @@
 		{
             "type": "spell_power:fire",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:mythic_tool_4",
                 "operation": "ADDITION",
                 "amount": 1.5
             },
@@ -35,7 +35,7 @@
 		{
             "type": "spell_power:arcane",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:mythic_tool_4",
                 "operation": "ADDITION",
                 "amount": 1.5
             },
@@ -46,7 +46,7 @@
         {
             "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:unique_melee_1",
+                "name": "tiered:mythic_melee_1",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.15
             },

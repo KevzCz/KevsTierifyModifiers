@@ -1,5 +1,5 @@
 {
-    "id": "tiered:miner_armor",
+    "id": "tiered:rare_miner_armor",
     "verifiers": [
         {
             "tag": "c:helmets"

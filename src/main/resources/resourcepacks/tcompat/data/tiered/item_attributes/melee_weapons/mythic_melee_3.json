@@ -18,7 +18,7 @@
             "modifier": {
                 "name": "tiered:mythic_melee_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.125
+                "amount": 0.4
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -40,7 +40,7 @@
             "modifier": {
                 "name": "tiered:mythic_melee_3",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 2
             },
             "optional_equipment_slots": [
                 "MAINHAND"

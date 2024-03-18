@@ -1,5 +1,5 @@
 {
-    "id": "tiered:magical",
+    "id": "tiered:mythic_magical",
     "verifiers": [
         {
             "tag": "c:bows"
@@ -10,15 +10,15 @@
     ],
     "weight": 1,
   "style": {
-        "color": "dark_red"
+        "color": "red"
   },
   "attributes": [
         {
             "type": "spell_power:frost",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:legendary_tool_4",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -28,9 +28,9 @@
 		{
             "type": "spell_power:fire",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:legendary_tool_4",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -40,45 +40,21 @@
 		{
             "type": "spell_power:arcane",
             "modifier": {
-                "name": "tiered:unique_tool_4",
+                "name": "tiered:legendary_tool_4",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND",
                 "OFFHAND"
             ]
         },
-          {
-              "type": "spell_power:soul",
-              "modifier": {
-                  "name": "tiered:unique_tool_4",
-                  "operation": "ADDITION",
-                  "amount": 3
-              },
-              "optional_equipment_slots": [
-                  "MAINHAND",
-                  "OFFHAND"
-              ]
-          },
-          {
-              "type": "spell_power:lightning",
-              "modifier": {
-                  "name": "tiered:unique_tool_4",
-                  "operation": "ADDITION",
-                  "amount": 3
-              },
-              "optional_equipment_slots": [
-                  "MAINHAND",
-                  "OFFHAND"
-              ]
-          },
 		{
             "type": "puffish_skills:player.ranged_damage",
             "modifier": {
-                "name": "tiered:unique_ranged_1",
+                "name": "tiered:legendary_ranged_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.4
+                "amount": -0.6
             },
             "optional_equipment_slots": [
                 "MAINHAND",

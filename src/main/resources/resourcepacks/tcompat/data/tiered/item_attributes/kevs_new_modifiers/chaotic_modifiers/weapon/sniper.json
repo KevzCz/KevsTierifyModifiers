@@ -1,5 +1,5 @@
 {
-    "id": "tiered:sniper",
+    "id": "tiered:mythic_sniper",
     "verifiers": [
         {
             "tag": "c:bows"
@@ -10,15 +10,15 @@
     ],
     "weight": 1,
     "style": {
-        "color": "dark_red"
+        "color": "red"
     },
     "attributes": [
         {
             "type": "puffish_skills:player.ranged_damage",
             "modifier": {
-                "name": "tiered:unique_ranged_1",
+                "name": "tiered:mythic_ranged_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 1
+                "amount": 0.75
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -28,9 +28,9 @@
 		{
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:unique_ranged_2",
+                "name": "tiered:mythic_ranged_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.6
+                "amount": -0.5
             },
             "optional_equipment_slots": [
                 "MAINHAND",
