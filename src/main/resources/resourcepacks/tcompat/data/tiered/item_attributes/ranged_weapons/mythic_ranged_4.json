@@ -1,5 +1,5 @@
 {
-    "id": "tiered:mythic_gem_4",
+    "id": "tiered:mythic_ranged_4",
     "verifiers": [
         {
             "tag": "c:bows"
@@ -19,7 +19,7 @@
         {
             "type": "puffish_skills:player.ranged_damage",
             "modifier": {
-                "name": "tiered:mythic_gem_4",
+                "name": "tiered:mythic_ranged_4",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.5
             },
@@ -31,7 +31,7 @@
         {
             "type": "obscure_api:critical_damage",
             "modifier": {
-                "name": "tiered:mythic_gem_4",
+                "name": "tiered:mythic_ranged_4",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.35
             },
