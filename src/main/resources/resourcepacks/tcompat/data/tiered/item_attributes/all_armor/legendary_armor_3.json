@@ -14,7 +14,7 @@
             "tag": "c:boots"
         }
     ],
-    "weight": 7,
+    "weight": 5,
     "style": {
         "color": "gold"
     },
@@ -24,7 +24,7 @@
             "modifier": {
                 "name": "tiered:legendary_armor_3",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -38,7 +38,7 @@
             "modifier": {
                 "name": "tiered:legendary_armor_3",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 3
             },
             "optional_equipment_slots": [
                 "FEET",

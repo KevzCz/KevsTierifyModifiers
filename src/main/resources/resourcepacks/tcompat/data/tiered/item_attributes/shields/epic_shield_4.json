@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:epic_shield_4",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -27,7 +27,7 @@
             "modifier": {
                 "name": "tiered:epic_shield_4",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND",

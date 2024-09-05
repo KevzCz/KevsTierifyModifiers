@@ -36,7 +36,7 @@
             "modifier": {
                 "name": "tiered:uncommon_archer_1",
                 "operation": "ADDITION",
-                "amount": 1
+                "amount": 1.5
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -50,7 +50,7 @@
             "modifier": {
                 "name": "tiered:uncommon_archer_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.25
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "FEET",

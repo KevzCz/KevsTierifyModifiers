@@ -3,6 +3,9 @@
     "verifiers": [
         {
             "tag": "wizards:staves"
+        },
+		{
+            "tag": "wizards:wands"
         }
     ],
     "weight": 55,
@@ -15,7 +18,7 @@
             "modifier": {
                 "name": "tiered:common_staves_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.3
+                "amount": 0.075
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -26,7 +29,7 @@
             "modifier": {
                 "name": "tiered:common_staves_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.15
+                "amount": 0.0175
             },
             "optional_equipment_slots": [
                 "MAINHAND"

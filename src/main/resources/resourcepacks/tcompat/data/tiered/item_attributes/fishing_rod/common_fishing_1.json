@@ -15,7 +15,7 @@
       "modifier": {
         "name": "tiered:common_fishing_1",
         "operation": "ADDITION",
-        "amount": -3
+        "amount": 1
       },
       "optional_equipment_slots": [
         "MAINHAND",

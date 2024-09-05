@@ -50,7 +50,7 @@
             "modifier": {
                 "name": "tiered:common_archer_1",
                 "operation": "ADDITION",
-                "amount": -2
+                "amount": 1
             },
             "optional_equipment_slots": [
                 "FEET",

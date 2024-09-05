@@ -1,5 +1,5 @@
 {
-    "id": "tiered:epic_forcefield",
+    "id": "tiered:forcefield",
     "verifiers": [
         {
             "tag": "c:helmets"

@@ -1,5 +1,5 @@
 {
-    "id": "tiered:mythic_elytra_1",
+    "id": "tiered:mythic_elytra_2",
     "verifiers": [
 		{
             "id": "minecraft:elytra"
@@ -8,28 +8,28 @@
             "id": "mythicmetals:celestium_elytra"
         }
     ],
-    "weight": 5,
+    "weight": 3,
     "style": {
         "color": "red"
     },
     "attributes": [
         {
-            "type": "generic.max_health",
+            "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:mythic_elytra_1",
-                "operation": "ADDITION",
-                "amount": 6
+                "name": "tiered:mythic_elytra_2",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.5
             },
             "optional_equipment_slots": [
                 "CHEST"
             ]
         },
         {
-            "type": "mythicmetals:elytra_rocket_speed",
+            "type": "generic.max_health",
             "modifier": {
-                "name": "tiered:mythic_elytra_1",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": 0.25
+                "name": "tiered:mythic_elytra_2",
+                "operation": "ADDITION",
+                "amount": 6
             },
             "optional_equipment_slots": [
                 "CHEST"

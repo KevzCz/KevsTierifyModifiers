@@ -8,7 +8,7 @@
             "tag": "c:tridents"
         }
     ],
-    "weight": 5,
+    "weight": 3,
     "style": {
         "color": "red"
     },
@@ -18,7 +18,7 @@
             "modifier": {
                 "name": "tiered:mythic_melee_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.45
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -40,7 +40,7 @@
             "modifier": {
                 "name": "tiered:mythic_melee_4",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND"

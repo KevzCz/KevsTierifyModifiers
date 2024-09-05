@@ -21,7 +21,7 @@
             "modifier": {
                 "name": "tiered:rare_ranged_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.05
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -33,7 +33,7 @@
             "modifier": {
                 "name": "tiered:rare_ranged_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.05
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -45,7 +45,7 @@
             "modifier": {
                 "name": "tiered:rare_ranged_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.05
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND",

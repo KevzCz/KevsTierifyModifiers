@@ -2,7 +2,10 @@
   "id": "tiered:mythic_staves_5",
   "verifiers": [
         {
-          "tag": "wizards:staves"
+            "tag": "wizards:staves"
+        },
+		{
+            "tag": "wizards:wands"
         }
   ],
   "weight": 1,

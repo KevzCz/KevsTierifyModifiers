@@ -11,7 +11,7 @@
             "tag": "c:tridents"
         }
     ],
-    "weight": 5,
+    "weight": 3,
     "style": {
         "color": "red"
     },
@@ -21,7 +21,7 @@
             "modifier": {
                 "name": "tiered:mythic_ranged_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.5
+                "amount": 0.4
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -33,7 +33,7 @@
             "modifier": {
                 "name": "tiered:mythic_ranged_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.225
             },
             "optional_equipment_slots": [
                 "MAINHAND",

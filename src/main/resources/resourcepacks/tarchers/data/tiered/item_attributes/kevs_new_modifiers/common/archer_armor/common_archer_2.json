@@ -50,7 +50,7 @@
             "modifier": {
                 "name": "tiered:common_archer_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.2
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "FEET",

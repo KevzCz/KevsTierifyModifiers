@@ -24,7 +24,7 @@
             "modifier": {
                 "name": "tiered:uncommon_armor_2",
                 "operation": "ADDITION",
-                "amount": -1
+                "amount": 1
             },
             "optional_equipment_slots": [
                 "FEET",

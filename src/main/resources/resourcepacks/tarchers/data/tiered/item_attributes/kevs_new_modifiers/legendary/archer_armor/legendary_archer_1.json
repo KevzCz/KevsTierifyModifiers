@@ -26,7 +26,7 @@
             "id": "archers:ranger_armor_feet"
         }
     ],
-    "weight": 7,
+    "weight": 5,
     "style": {
         "color": "gold"
     },
@@ -50,7 +50,7 @@
             "modifier": {
                 "name": "tiered:legendary_archer_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.06
+                "amount": 0.125
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -64,7 +64,7 @@
             "modifier": {
                 "name": "tiered:legendary_archer_1",
                 "operation": "ADDITION",
-                "amount": 4
+                "amount": 5
             },
             "optional_equipment_slots": [
                 "FEET",

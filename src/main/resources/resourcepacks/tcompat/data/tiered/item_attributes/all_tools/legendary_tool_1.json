@@ -14,7 +14,7 @@
             "tag": "c:hoes"
         }
     ],
-    "weight": 7,
+    "weight": 5,
     "style": {
         "color": "gold"
     },
@@ -24,7 +24,7 @@
             "modifier": {
                 "name": "tiered:legendary_tool_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.4
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,7 +35,7 @@
             "modifier": {
                 "name": "tiered:legendary_tool_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.05
+                "amount": 0.125
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -46,7 +46,7 @@
             "modifier": {
                 "name": "tiered:legendary_tool_1",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 2.5
             },
             "optional_equipment_slots": [
                 "MAINHAND"

@@ -3,6 +3,9 @@
     "verifiers": [
         {
             "tag": "wizards:staves"
+        },
+		{
+            "tag": "wizards:wands"
         }
     ],
     "weight": 16,

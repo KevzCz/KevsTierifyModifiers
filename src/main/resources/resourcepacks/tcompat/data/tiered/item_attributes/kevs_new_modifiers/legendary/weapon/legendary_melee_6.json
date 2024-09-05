@@ -8,7 +8,7 @@
             "tag": "c:tridents"
         }
     ],
-    "weight": 7,
+    "weight": 5,
     "style": {
         "color": "gold"
     },
@@ -18,7 +18,7 @@
             "modifier": {
                 "name": "tiered:legendary_melee_6",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -29,7 +29,7 @@
             "modifier": {
                 "name": "tiered:legendary_melee_6",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.125
+                "amount": 0.175
             },
             "optional_equipment_slots": [
                 "MAINHAND"

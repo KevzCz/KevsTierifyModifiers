@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:rare_shield_4",
                 "operation": "ADDITION",
-                "amount": 1
+                "amount": 2
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -27,7 +27,7 @@
             "modifier": {
                 "name": "tiered:rare_shield_4",
                 "operation": "ADDITION",
-                "amount": 1
+                "amount": 2.5
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -39,7 +39,7 @@
             "modifier": {
                 "name": "tiered:rare_shield_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.05
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND",

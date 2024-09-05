@@ -20,11 +20,25 @@
     },
     "attributes": [
         {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:common_armor_4",
+                "operation": "ADDITION",
+                "amount": 1
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
             "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:common_armor_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.5
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "FEET",

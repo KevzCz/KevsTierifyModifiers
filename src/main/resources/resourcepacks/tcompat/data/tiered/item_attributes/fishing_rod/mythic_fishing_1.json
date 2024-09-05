@@ -5,7 +5,7 @@
             "id": "minecraft:fishing_rod"
         }
     ],
-    "weight": 5,
+    "weight": 3,
     "style": {
         "color": "red"
     },
@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:mythic_fishing_1",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 5
             },
             "optional_equipment_slots": [
                 "MAINHAND",

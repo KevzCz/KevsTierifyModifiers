@@ -50,7 +50,7 @@
             "modifier": {
                 "name": "tiered:epic_archer_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.4
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -64,7 +64,7 @@
             "modifier": {
                 "name": "tiered:epic_archer_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.05
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "FEET",

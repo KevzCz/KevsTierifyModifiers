@@ -11,11 +11,23 @@
     },
     "attributes": [
         {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:epic_fishing_1",
+                "operation": "ADDITION",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
             "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:epic_fishing_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.3
+                "amount": 0.25
             },
             "optional_equipment_slots": [
                 "MAINHAND",

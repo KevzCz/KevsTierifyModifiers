@@ -11,7 +11,7 @@
             "tag": "paladins:maces"
         }
     ],
-    "weight": 5,
+    "weight": 3,
     "style": {
         "color": "red"
     },
@@ -32,7 +32,7 @@
             "modifier": {
                 "name": "tiered:mythic_papmelee_2",
                 "operation": "ADDITION",
-                "amount": 3
+                "amount": 4
             },
             "optional_equipment_slots": [
                 "MAINHAND"

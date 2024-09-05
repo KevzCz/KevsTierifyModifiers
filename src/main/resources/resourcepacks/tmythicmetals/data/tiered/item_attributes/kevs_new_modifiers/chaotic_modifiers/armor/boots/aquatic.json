@@ -1,5 +1,5 @@
 {
-    "id": "tiered:mythic_aquatic_1",
+    "id": "tiered:aquatic_1",
     "verifiers": [
         {
             "tag": "c:boots"
@@ -7,7 +7,7 @@
     ],
     "weight": 1,
     "style": {
-        "color": "red"
+        "color": "dark_red"
     },
     "attributes": [
         {

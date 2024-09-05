@@ -24,7 +24,7 @@
             "modifier": {
                 "name": "tiered:epic_tool_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.3
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,7 +35,7 @@
             "modifier": {
                 "name": "tiered:epic_tool_1",
                 "operation": "ADDITION",
-                "amount": 1
+                "amount": 1.5
             },
             "optional_equipment_slots": [
                 "MAINHAND"

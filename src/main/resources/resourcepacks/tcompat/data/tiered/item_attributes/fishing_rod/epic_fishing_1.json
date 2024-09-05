@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:epic_fishing_1",
                 "operation": "ADDITION",
-                "amount": 1
+                "amount": 3
             },
             "optional_equipment_slots": [
                 "MAINHAND",

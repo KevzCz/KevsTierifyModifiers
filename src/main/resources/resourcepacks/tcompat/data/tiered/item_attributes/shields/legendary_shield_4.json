@@ -5,7 +5,7 @@
             "tag": "c:shields"
         }
     ],
-    "weight": 7,
+    "weight": 5,
     "style": {
         "color": "gold"
     },
@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:legendary_shield_4",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 5
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -27,7 +27,7 @@
             "modifier": {
                 "name": "tiered:legendary_shield_4",
                 "operation": "ADDITION",
-                "amount": 4
+                "amount": 5
             },
             "optional_equipment_slots": [
                 "MAINHAND",
@@ -39,7 +39,7 @@
             "modifier": {
                 "name": "tiered:legendary_shield_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.05
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "MAINHAND",

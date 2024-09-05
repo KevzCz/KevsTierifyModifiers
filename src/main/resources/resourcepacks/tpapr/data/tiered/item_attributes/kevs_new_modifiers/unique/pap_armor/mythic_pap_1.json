@@ -50,7 +50,7 @@
             "id": "paladins:prior_armor_chest"
         }
     ],
-    "weight": 500,
+    "weight": 3,
     "style": {
         "color": "red"
     },

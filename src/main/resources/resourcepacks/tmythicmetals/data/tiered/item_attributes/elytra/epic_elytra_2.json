@@ -18,7 +18,7 @@
             "modifier": {
                 "name": "tiered:epic_elytra_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.2
+                "amount": 0.3
             },
             "optional_equipment_slots": [
                 "CHEST"
@@ -29,7 +29,7 @@
             "modifier": {
                 "name": "tiered:epic_elytra_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.1
+                "amount": 0.125
             },
             "optional_equipment_slots": [
                 "CHEST"

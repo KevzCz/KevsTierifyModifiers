@@ -1,5 +1,5 @@
 {
-    "id": "tiered:mythic_armor_1",
+    "id": "tiered:mythic_armor_2",
     "verifiers": [
         {
             "tag": "c:helmets"
@@ -14,7 +14,7 @@
             "tag": "c:boots"
         }
     ],
-    "weight": 5,
+    "weight": 3,
     "style": {
         "color": "red"
     },
@@ -22,23 +22,9 @@
         {
             "type": "generic.armor",
             "modifier": {
-                "name": "tiered:mythic_armor_1",
+                "name": "tiered:mythic_armor_2",
                 "operation": "ADDITION",
-                "amount": 4
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "generic.armor_toughness",
-            "modifier": {
-                "name": "tiered:mythic_armor_1",
-                "operation": "ADDITION",
-                "amount": 2
+                "amount": 5
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -50,9 +36,23 @@
         {
             "type": "generic.max_health",
             "modifier": {
-                "name": "tiered:mythic_armor_1",
+                "name": "tiered:mythic_armor_2",
                 "operation": "ADDITION",
                 "amount": 6
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:mythic_armor_2",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "FEET",
