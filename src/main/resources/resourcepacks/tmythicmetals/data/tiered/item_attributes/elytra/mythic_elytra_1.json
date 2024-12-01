@@ -25,11 +25,11 @@
             ]
         },
         {
-            "type": "generic.max_health",
+            "type": "mythicmetals:elytra_rocket_speed",
             "modifier": {
                 "name": "tiered:mythic_elytra_2",
-                "operation": "ADDITION",
-                "amount": 6
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "CHEST"

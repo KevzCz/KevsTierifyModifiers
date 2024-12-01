@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "kevstierifymodifiers",
-	"version": "1.5.4",
+	"version": "1.5.6",
 	"name": "Kev's Tierify Modifiers",
 	"description": "Tons of new modifiers for you to discover!",
 	"authors": [
@@ -32,8 +32,9 @@
 		"puffish_attributes": "*",
 		"tiered": "*",
 		"obscure_api": "*",
-		"kevslibrary": "1.1.1",
-		"spell_power": "*"
+		"kevslibrary": "1.1.2",
+		"spell_power": "*",
+		"zenith_attributes": "*"
 	},
 	"suggests": {
 		"mythicmetals": "*",

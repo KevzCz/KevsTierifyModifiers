@@ -21,7 +21,7 @@
             "modifier": {
                 "name": "tiered:mythic_ranged_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": 0.25
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND",
